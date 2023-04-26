@@ -4,6 +4,7 @@ const styles = StyleSheet.create({
   main: {
     backgroundColor: "black",
     height: "100%",
+    paddingLeft: 15,
   },
 });
 
