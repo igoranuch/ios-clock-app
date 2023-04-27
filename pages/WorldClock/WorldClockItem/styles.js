@@ -14,8 +14,7 @@ const styles = StyleSheet.create({
   },
   infoBlock: {
     display: "flex",
-    gap: 5,
-    justifyContent: "space-between",
+    justifyContent: "center",
   },
   infoBlockText: {
     fontSize: 34,
@@ -28,6 +27,18 @@ const styles = StyleSheet.create({
   diffText: {
     fontSize: 16,
     color: "rgba(255, 255, 255, 0.4)",
+  },
+  iconWrap: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    height: "100%",
+    padding: 12,
+  },
+  wrap: {
+    display: "flex",
+    flexDirection: "row",
+    height: "100%",
   },
 });
 

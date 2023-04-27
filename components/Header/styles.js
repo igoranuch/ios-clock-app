@@ -22,8 +22,8 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   headerText: {
-    fontSize: 30,
-    fontWeight: "bold",
+    fontSize: 40,
+    fontWeight: "700",
     color: "white",
   },
 });

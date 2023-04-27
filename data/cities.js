@@ -1,7 +1,7 @@
 export const cities = [
-  { city: "Kyiv" },
+  { city: "Lviv" },
+  { city: "New York" },
+  { city: "Liverpool" },
+  { city: "Paris" },
   { city: "Dubai" },
-  { city: "London" },
-  { city: "Oslo" },
-  { city: "Bratislava" },
 ];
