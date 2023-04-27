@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: "1px",
     borderBottomColor: "rgba(211, 211, 211, 0.15)",
     width: "100%",
-    paddingHorizontal: 15,
+    paddingRight: 15,
     paddingVertical: 10,
   },
   infoBlock: {

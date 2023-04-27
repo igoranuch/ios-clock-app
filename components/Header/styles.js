@@ -8,8 +8,8 @@ const styles = StyleSheet.create({
     display: "flex",
     justifyContent: "space-between",
     paddingVertical: 10,
-    paddingHorizontal: 10,
-    gap: 28,
+    paddingRight: 10,
+    gap: 15,
   },
   text: {
     color: "orange",

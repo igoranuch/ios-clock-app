@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
     backgroundColor: "black",
     height: "100%",
     paddingLeft: 15,
+    overflow: "scroll",
   },
   timeSection: {
     display: "flex",

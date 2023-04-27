@@ -3,7 +3,7 @@ import { Text, View } from "react-native";
 import styles from "./styles";
 import Icon from "react-native-vector-icons/Ionicons";
 
-export default function Header({ title }) {
+export default function Header({ children, title }) {
   return (
     <View style={styles.header}>
       <View style={styles.editContainer}>
@@ -13,6 +13,7 @@ export default function Header({ title }) {
       <View>
         <Text style={styles.headerText}>{title}</Text>
       </View>
+      {children}
     </View>
   );
 }

@@ -1,9 +1,9 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import WorldClock from "./pages/WorldClock/WorldClock";
-import Alarm from "./pages/Alarm/Alarm";
-import Stopwatch from "./pages/Stopwatch/Stopwatch";
-import Timer from "./pages/Timer/Timer";
+import WorldClock from "./pages/WorldClock";
+import Alarm from "./pages/Alarm";
+import Stopwatch from "./pages/Stopwatch";
+import Timer from "./pages/Timer";
 import styles from "./styles";
 import Icon from "react-native-vector-icons/Ionicons";
 
@@ -32,7 +32,13 @@ export default function App() {
                 break;
             }
 
-            return <Icon name={iconName} color={focused ? "orange" : "lightgray"} size={size} />;
+            return (
+              <Icon
+                name={iconName}
+                color={focused ? "orange" : "lightgray"}
+                size={size}
+              />
+            );
           },
           tabBarActiveTintColor: "orange",
           tabBarInactiveTintColor: "lightgray",
