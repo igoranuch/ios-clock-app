@@ -9,8 +9,7 @@ const LapItem = ({ number, interval }) => {
     <View style={styles.lap}>
       <Text style={styles.lapText}>{number}</Text>
       <Text style={styles.lapText}>
-        {duration.minutes()}:{duration.seconds()}.
-        {Math.floor(duration.milliseconds() / 10)}
+        {moment(duration.asMilliseconds()).format("mm:ss:SS")}
       </Text>
     </View>
   );

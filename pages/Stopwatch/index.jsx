@@ -43,16 +43,12 @@ const Stopwatch = () => {
 
   const duration = moment.duration(stopTime);
 
-  //func zrobiti dlya timera)
-  const pad = (number) => {
-    return number < 10 ? "0" + number : number;
-  };
-
   return (
     <View style={styles.container}>
       <Text style={styles.timer}>
-        {pad(duration.minutes())}:{pad(duration.seconds())}.
-        {pad(duration.milliseconds() / 10)}
+        {moment(duration.asMilliseconds()).format("mm")}:
+        {moment(duration.asMilliseconds()).format("ss")}:
+        {moment(duration.asMilliseconds()).format("SS")}
       </Text>
       <View style={styles.buttonsRow}>
         <RoundButton

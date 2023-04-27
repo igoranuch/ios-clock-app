@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
   },
   timer: {
     color: "#FFFF",
-    fontSize: 76,
+    fontSize: 80,
     fontWeight: "200",
   },
   buttonsRow: {
