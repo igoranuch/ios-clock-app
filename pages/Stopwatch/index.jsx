@@ -46,9 +46,7 @@ const Stopwatch = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.timer}>
-        {moment(duration.asMilliseconds()).format("mm")}:
-        {moment(duration.asMilliseconds()).format("ss")}:
-        {moment(duration.asMilliseconds()).format("SS")}
+        {moment(duration.asMilliseconds()).format("mm:ss:SS")}
       </Text>
       <View style={styles.buttonsRow}>
         <RoundButton
