@@ -1,29 +1,24 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-  main: {
-    backgroundColor: "black",
-    height: "100%",
-  },
   container: {
-    flex: 1,
+    height: "100%",
     backgroundColor: "black",
-    alignItems: "center",
     paddingTop: 150,
     paddingHorizontal: 20,
+    alignItems: "center",
   },
   timer: {
     color: "#FFFF",
     fontSize: 80,
-    fontWeight: "200",
+    fontWeight: "normal",
   },
   buttonsRow: {
     flexDirection: "row",
     alignSelf: "stretch",
     justifyContent: "space-between",
-    marginTop: 80,
-    marginBottom: 30,
     borderBottomWidth: 1,
+    paddingTop: 100,
     paddingBottom: 15,
     borderColor: "#151515",
   },

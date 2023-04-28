@@ -101,6 +101,7 @@ const Timer = () => {
       </View>
       <View style={styles.inputContainer}>
         <TextInput
+          disabled={isActive}
           style={styles.input}
           placeholder="Hours"
           placeholderTextColor="rgba(0, 0, 0, 0.5)"
@@ -109,6 +110,7 @@ const Timer = () => {
           ref={hourInputRef}
         />
         <TextInput
+          disabled={isActive}
           style={styles.input}
           placeholder="Minutes"
           placeholderTextColor="rgba(0, 0, 0, 0.5)"
@@ -117,6 +119,7 @@ const Timer = () => {
           ref={minuteInputRef}
         />
         <TextInput
+          disabled={isActive}
           style={styles.input}
           placeholder="Seconds"
           placeholderTextColor="rgba(0, 0, 0, 0.5)"
