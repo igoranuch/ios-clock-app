@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     borderBottomWidth: 1.5,
     boxSizing: "border-box",
+    outlineStyle: "none",
   },
   cityNameText: {
     fontSize: 14,
