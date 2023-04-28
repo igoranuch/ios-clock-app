@@ -1,3 +1,5 @@
+# Виконав Мадяр Ігор Михайлович
+
 # How to start project:
 
 NodeJS v14.21.3
