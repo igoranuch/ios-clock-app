@@ -1,4 +1,4 @@
-## How to start project:
+# How to start project:
 
 NodeJS v14.21.3
 
@@ -8,9 +8,9 @@ NodeJS v14.21.3
 4. Якщо виникнуть якісь проблеми спробувати інсталювати: `npx expo install react-dom react-native web @expo/webpack-config`
 5. Для зручного відображення у браузері треба увімкнути `Responsive view`.
 
-## Results
+# Results
 
-# World Clock - реалізована логіка додавання і редагування міст
+## World Clock - реалізована логіка додавання і редагування міст
 
 ![Alt text](https://i.ibb.co/xH2sWNw/image.png)
 
@@ -18,14 +18,14 @@ NodeJS v14.21.3
 
 ![Alt text](https://i.ibb.co/Bnncd0q/image.png)
 
-# Alarm - реалізовано лише логіку switch
+## Alarm - реалізовано лише логіку switch
 
 ![Alt text](https://i.ibb.co/6nkfB9s/image.png)
 
-# Stopwatch - реалізовано весь функціонал
+## Stopwatch - реалізовано весь функціонал
 
 ![Alt text](https://i.ibb.co/FBwT2Sq/image.png)
 
-# Timer - реалізовано функціонал таймера
+## Timer - реалізовано функціонал таймера
 
 ![Alt text](https://i.ibb.co/RvpbTJ1/image.png)
